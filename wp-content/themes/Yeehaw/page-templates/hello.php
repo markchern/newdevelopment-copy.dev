@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div id="main-content" class="main-content" style="background-color:yellow">
+<div id="main-content" class="content-area red">
 
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
