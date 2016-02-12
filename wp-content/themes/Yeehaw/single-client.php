@@ -24,8 +24,7 @@ get_header(); ?>
 
 					echo types_render_field("client-url", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
 					echo types_render_field("client-image", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
-
-
+					echo types_render_field("client-color", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
 
 					// Previous/next post navigation.
 					twentyfourteen_post_nav();
